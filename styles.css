@@ -1,0 +1,112 @@
+@media only screen and (min-width: 1200px) {
+  :root {
+    font-size: 1.25vw;
+  }
+}
+
+* {
+  margin: 0 auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+main {
+  background: #eaeaea;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ff2e63;
+  font-family: "Nunito";
+}
+
+main .title {
+  font-size: 2.196vw;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.change {
+  color: #252a34;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 58.565vw;
+}
+
+.break {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #252a34;
+}
+
+.timer h1 {
+  font-size: 9.517vw;
+}
+
+.timer i {
+  color: #ff2e63;
+  margin-top: 30%;
+  font-size: 2.196vw;
+  text-shadow: none;
+}
+
+i {
+  margin-right: 0.732vw;
+  margin-left: 0.732vw;
+}
+
+.name {
+  position: fixed;
+  bottom: 1vw;
+  color: #ff2e63;
+  font-size: 1.464vw;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.name i {
+  color: #252a34;
+  display: inline-block;
+  margin-right: 0.732vw;
+}
+/*# sourceMappingURL=styles.css.map */
