@@ -70,7 +70,6 @@ function App() {
     breakAudio.pause()
     breakAudio.currentTime = 0
     setOnbreak(false)
-    setTimerOn(false)
     setSession(25 * 60)
     setBreakLength(5 * 60)
     setDisplayTime(25 * 60)
