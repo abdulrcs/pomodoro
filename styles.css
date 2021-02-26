@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   :root {
     font-size: 1.25vw;
   }
@@ -108,5 +108,190 @@ i {
   color: #252a34;
   display: inline-block;
   margin-right: 0.732vw;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    background: #eaeaea;
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #ff2e63;
+    font-family: "Nunito";
+  }
+  main .title {
+    font-size: 30px;
+    margin-top: -10%;
+    margin-bottom: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .change {
+    color: #252a34;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+  }
+  .break {
+    font-size: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .timer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #252a34;
+  }
+  .timer h1 {
+    font-size: 120px;
+  }
+  .timer i {
+    color: #ff2e63;
+    margin-top: 30%;
+    font-size: 29.997px;
+    text-shadow: none;
+  }
+  i {
+    margin-right: 9.999px;
+    margin-left: 9.999px;
+  }
+  .name {
+    position: fixed;
+    bottom: 13.66px;
+    color: #ff2e63;
+    font-size: 19.998px;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  .name i {
+    color: #252a34;
+    display: inline-block;
+    margin-right: 9.999px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  main {
+    background: #eaeaea;
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #ff2e63;
+    font-family: "Nunito";
+  }
+  main .title {
+    font-size: 60px;
+    margin-top: -10%;
+    margin-bottom: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .change {
+    color: #252a34;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 650px;
+  }
+  .break {
+    font-size: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .timer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #252a34;
+  }
+  .timer h1 {
+    font-size: 240px;
+  }
+  .timer i {
+    color: #ff2e63;
+    margin-top: 30%;
+    font-size: 50px;
+    text-shadow: none;
+  }
+  .timer p {
+    font-size: 35px;
+  }
+  i {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .name {
+    position: fixed;
+    bottom: 13.66px;
+    color: #ff2e63;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  .name i {
+    color: #252a34;
+    display: inline-block;
+    margin-right: 18px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
