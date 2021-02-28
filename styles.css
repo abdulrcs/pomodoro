@@ -223,7 +223,7 @@ i {
     font-family: "Nunito";
   }
   main .title {
-    font-size: 60px;
+    font-size: 40px;
     margin-top: -10%;
     margin-bottom: 2%;
     display: -webkit-box;
@@ -265,11 +265,11 @@ i {
     color: #252a34;
   }
   .timer h1 {
-    font-size: 240px;
+    font-size: 180px;
   }
   .timer i {
     color: #ff2e63;
-    margin-top: 30%;
+    margin-top: 5%;
     font-size: 50px;
     text-shadow: none;
   }
@@ -284,7 +284,7 @@ i {
     position: fixed;
     bottom: 13.66px;
     color: #ff2e63;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
     text-shadow: none;
   }

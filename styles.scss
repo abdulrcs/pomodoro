@@ -176,7 +176,7 @@ main
     font-family: "Nunito";
     .title
     {
-        font-size:60px;
+        font-size:40px;
         margin-top:-10%;
         margin-bottom:2%;
         display:flex;
@@ -203,12 +203,12 @@ main
     color:$secondary;
     h1
     {
-        font-size:240px;
+        font-size:180px;
     }
     i
     {
         color:$primary;
-        margin-top:30%;
+        margin-top:5%;
         font-size:50px;
         text-shadow: none;
     }
@@ -227,7 +227,7 @@ i
     position:fixed;
     bottom:13.66px;
     color: $primary;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration:none;
     text-shadow: none;
     i
